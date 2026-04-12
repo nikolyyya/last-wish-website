@@ -95,5 +95,20 @@ body{
     text-align: center;
 }
 
+.garantiyas-grid{
+    display: contents;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+}
+.garantiya-card {
+    margin: 0;
+    padding: 15px 0;  
+}
 
+.garantiya-card p {
+    margin: 0;
+    padding: 5px 0;
+}
 
