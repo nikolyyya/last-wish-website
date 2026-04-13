@@ -105,10 +105,79 @@ body{
 .garantiya-card {
     margin: 0;
     padding: 15px 0;  
+    font-size: medium;
 }
 
 .garantiya-card p {
     margin: 0;
     padding: 5px 0;
 }
+.howtouse h2{
+    color: #ffffff;
+    margin: 15px;
+    font-size: 25px;
+}
+.garantiya {
+    color: #ffffff;
+}
+.howtouse-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.howtouse-card{
+    flex: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.butreg{
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.modal{
+    background-color: #eacac9;
+    border-radius: 20px;
+    padding: 30px;
+}
+.modal-card{
+    text-align: center;
+}
+.modal-card a{
+    background-color: #7EEB48;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #070052;
+    color: #ffffff;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 25px;
+}
+.footer-menu a {
+    color: #ffffff;
+}
+.footer-leg {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.footer-leg a {
+    color: #ffffff;
+}
+.footer-down {
+    text-align: center;
+}
 
+.footer-down h5 {
+    color: #b0b0b0;
+    margin: 0;
+}
