@@ -48,6 +48,12 @@ body{
     font-size: 48px;
     color: #ffffff;
     margin-bottom: 10px;
+    text-shadow: 
+        0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #7EEB48,
+        0 0 30px #8a2be2,
+        0 0 50px #8a2be2;
 }
 .hero p {
     font-size: 18px;
@@ -148,13 +154,21 @@ body{
     text-align: center;
 }
 .modal-card a{
+    display: inline-block;
+    text-decoration: none;
     background-color: #7EEB48;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 
+        0 0 10px rgba(126, 235, 72, 0.5),
+        0 0 20px rgba(126,235, 72, 0.3),
+        0 0 40px rgba(126,235,72,0.2);
 }
+
 .footer{
     background-color: #070052;
     color: #ffffff;
+    text-align: center;
 }
 .footer-menu{
     display: flex;
@@ -179,5 +193,5 @@ body{
 
 .footer-down h5 {
     color: #b0b0b0;
-    margin: 0;
+    margin: 10px;
 }
