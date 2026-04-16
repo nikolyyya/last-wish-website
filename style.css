@@ -195,3 +195,108 @@ body{
     color: #b0b0b0;
     margin: 10px;
 }
+.footer-down h6 {
+    color: #b0b0b0;
+}
+.logow {
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+}
+
+.entrance {
+    text-align: center;
+    padding: 0px;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 30px #7EEB48,
+        0 0 70px #7EEB48,
+        0 0 100px #8a2be2,
+        0 0 150px #8a2be2;
+} 
+.emai{
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 30px #7EEB48,
+        0 0 60px #7EEB48,
+        0 0 80px #8a2be2,
+        0 0 90px #8a2be2;
+}
+.input-group{
+    text-align: center;
+    margin: 10px;
+}
+.input-group label {
+    display: block;       
+    margin-bottom: 4px;   
+    align-items: center;
+}
+.input-group input {
+    margin: 0 auto;       
+    padding: 10px 12px;  
+    display: block;       
+    width: 50%;         
+    box-sizing: border-box; 
+    border-radius: 30px;
+    text-align: center;
+}
+.pass1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #7EEB48,
+    0 0 60px #7EEB48,
+    0 0 80px #8a2be2,
+    0 0 90px #8a2be2;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.btn-en{
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.btn-en .btn-green {
+    box-shadow: 0 0 15px #5a8a3c;
+    transition: 0.3s;
+}
+
+.btn-en .btn-green:hover {
+    box-shadow: 0 0 25px #5a8a3c, 0 0 50px #5a8a3c;
+    transform: scale(1.05);
+}
+
+.forget1{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #FFFF00 ,
+    0 0 60px #FF0000,
+    0 0 80px #FF0000;
+}
+.forget1 a {
+    color: #ffffff;
+}
+.reg {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+.reg a{
+    color: #87CEFA;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #87CEFA,
+        0 0 70px #87CEFA,
+        0 0 100px #87CEFA;
+}
