@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="reg1">
+    <div class="reg2">
+        <h2>🔒 DigWill</h2>
+        <h1>Зарегистрироваться / Create account</h1>
+    </div>
+</section>
+<form class="regform" method="post" action="#">
+    <div class="container12">
+        <div class="input-group1">
+            <h3 class="regemail">Электронная почта / Email</h3>
+            <input type="email" name="regemail1" id="regemail" placeholder="Введите email" required>
+        </div>
+        <div class="input-group1">
+            <h3 class="username">Имя пользователя / Username</h3>
+            <input type="text" name="username" id="username" placeholder="Введите username" required>
+        </div>
+        <div class="input-group1">
+            <h3 class="password">Пароль / password</h3>
+            <input type="password" name="password" id="password" placeholder="Введите пароль" required>
+            <p class="password-requirements">не менее 8 символов, латиница, обязательно цифра и специальный символ</p>
+        </div>
+        <div class="input-group1">
+            <h3 class="confrim-password">Подтверждение пароля / Confirm your password</h3>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Введите пароль" required>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" name="agree" id="agree" required>
+            <label for="agree">Я согласен с <a href="#">условиями использования</a></label>
+        </div>
+        <button type="submit" class="btn-green btn-register">Зарегистрироваться / Create account</button>
+        <div class="already-have">
+            <p>Уже есть аккаунт? / Already have an account?</p>
+            <a href="login.html" class="btn-grey">Войти / Log in</a>
+        </div>
+    </div>
+</form>
+</body>
+</html>

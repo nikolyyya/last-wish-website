@@ -265,7 +265,7 @@ body{
 }
 .btn-en .btn-green {
     box-shadow: 0 0 15px #5a8a3c;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .btn-en .btn-green:hover {
@@ -299,4 +299,76 @@ body{
         0 0 40px #87CEFA,
         0 0 70px #87CEFA,
         0 0 100px #87CEFA;
+}
+.reg2 {
+    color: #ffffff;
+    text-align: center;
+}
+.reg2 h1{
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #7EEB48,
+        0 0 60px #7EEB48,
+        0 0 80px #8a2be2;
+}
+.container12{
+    color: #ffffff;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #7EEB48,
+        0 0 60px #7EEB48,
+        0 0 80px #8a2be2;
+        padding: 30px;
+        margin: 20px;
+}
+.input-group1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.input-group1 input {
+    border-radius: 30px;
+    width: 350px;
+    max-width: 90%;
+    padding: 12px 15px;
+    border: none;
+    text-align: center;
+    margin-top: 8px;
+}
+.checkbox-group {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.checkbox-group input {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: 0,5s;
+}   
+.checkbox-group a {
+    color: #ffffff;
+}
+.btn-register {
+    display: block;       
+    width: fit-content;  
+    margin: 30px auto;   
+}
+.already-have {
+    text-align: center;
+}
+.already-have a {
+    color: #ffffff;
+    background-color: #5a8a3c;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 12px 30px;
+    transition: 0,5s;
 }
