@@ -393,6 +393,10 @@ body{
     padding-top: 2px;
     transition: 0,5s;
 }
+.sidelogo a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .sidenav a {
     color: #ffffff;
     display: flex;
@@ -506,7 +510,7 @@ body{
 .addd {
     color: #ffffff;
     text-align: center;
-    padding: 10x;
+    padding: 10px;
     border: 3px solid #7EEB48;
     border-radius: 30px;
     margin: 10px;
@@ -532,4 +536,17 @@ body{
     color: #ffffff;
     text-decoration: none;
     padding: 20px;
+}
+.addcontact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.addcontact a {
+    border: 3px solid #7EEB48;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
 }
