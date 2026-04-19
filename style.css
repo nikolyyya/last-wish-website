@@ -406,6 +406,11 @@ body{
         0 0 20px #ffffff,
         0 0 50px #ffffff;
     align-items: center;
+    border: 3px solid #8a2be2;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
 }
 .btn-logout {
     color: #ffffff;
@@ -479,6 +484,7 @@ body{
         0 0 30px #FFFF00,
         0 0 60px #FFFF00,
         0 0 80px #8a2be2;
+    transition: 1s;
 }
 .card-body p {
     color: #ffffff;
@@ -505,7 +511,11 @@ body{
         0 0 10px #ffffff,
         0 0 20px #ffffff,
         0 0 40px #5a8a3c,
-        0 0 60px #5a8a3c;
+        0 0 60px #275b06;
+    border: 3px solid #5a8a3c;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
 }
 .addd {
     color: #ffffff;
