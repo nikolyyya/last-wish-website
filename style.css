@@ -372,3 +372,164 @@ body{
     padding: 12px 30px;
     transition: 0,5s;
 }
+.lk-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    min-height: 100vh;
+}
+.sidemenu {
+    background-color: #000080;
+    padding: 30px 20px; 
+    color: #ffffff;
+    width: 170px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sidelogo {
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 2px;
+    transition: 0,5s;
+}
+.sidenav a {
+    color: #ffffff;
+    display: flex;
+    margin: 20px;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #ffffff;
+    align-items: center;
+}
+.btn-logout {
+    color: #ffffff;
+    display: block;
+    margin-top: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 40px #ffffff,
+        0 0 60px #FF0000,
+        0 0 70px #FF0000,
+        0 0 100px #FF0000;
+    border: 3px solid black;
+    background-color: #5a8a3c;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 10px;
+}
+.headlk h1 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 50px #ffffff,
+        0 0 30px #7EEB48,
+        0 0 60px #7EEB48,
+        0 0 80px #8a2be2;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile a {
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.mycapsule {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    transition: 0,7s;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 50px #ffffff,
+        0 0 30px #7EEB48,
+        0 0 60px #7EEB48,
+        0 0 80px #8a2be2;
+}
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+.card {
+    background-color: black;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid white;
+}
+.card-header {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 50px #ffffff,
+        0 0 30px #FFFF00,
+        0 0 60px #FFFF00,
+        0 0 80px #8a2be2;
+}
+.card-body p {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #5a8a3c,
+        0 0 60px #5a8a3c;
+    border: 3px solid #5a8a3c;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.btnok {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.zapisi {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #5a8a3c,
+        0 0 60px #5a8a3c;
+}
+.addd {
+    color: #ffffff;
+    text-align: center;
+    padding: 10x;
+    border: 3px solid #7EEB48;
+    border-radius: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.addd a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px;
+}
+.contactava {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+}
+.contactava a {
+    border: 3px solid #5a8a3c;
+    border-radius: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+}
