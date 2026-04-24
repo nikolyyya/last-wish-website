@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create capsula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="createyours">
+    <h2>Создайте свою капсулу времени!</h2>
+</div>
+<div class="statistics">
+    <span>Всего записей: <strong>0</strong></span>
+    <span>Категории: <strong>3</strong></span>
+</div>
+<div class="catselect">
+    <label for="catsel">Выберите категорию:</label>
+    <select id="catsel" class="categorf">
+        <option value="">Сначала выберите категорию </option>
+        <option value="banks">Мои банки</option>
+        <option value="soc">Мои социальные сети</option>
+        <option value="post">Моя почта</option>
+    </select>
+</div>
+<div id="form-banks" class="catform" style="display: none;">
+    <h3>Мой банк</h3>
+    <h4>Введите название банка</h4>
+    <input type="text" name="bankname" placeholder="Examplebank">
+    <h4>Введите номер вашей карты</h4>
+    <input type="text" name="cardnum" placeholder="XXXX-XXXX-XXXX-XXXX">
+    <h4>Введите ваш пароль</h4>
+    <input type="password" name="bankpass" placeholder="123qwerty890!!!">
+    <button type="submit" class="btnsave">Сохранить мой банк</button>
+</div>
+<div id="form-soc" class="catform" style="display: none;">
+    <h3>Моя социальная сеть</h3>
+    <h4>Введите название социальной сети</h4>
+    <input type="text" name="socname" placeholder="Test.com">
+    <h4>Введите свой никнейм</h4>
+    <input type="text" name="username" placeholder="kakashka123">
+    <h4>Введите ваш пароль</h4>
+    <input type="password" name="userpass" placeholder="123qwerty890">
+    <button type="submit" class="btnsave">Сохранить мою социальную сеть</button>
+</div>
+<div id="form-post" class="catform" style="display: none;">
+    <h3>Моя электронная почта</h3>
+    <h4>Введите вашу электронную почту</h4>
+    <input type="email" name="emname" placeholder="example@post.com">
+    <h4>Введите ваш пароль</h4>
+    <input type="password" name="postpas" placeholder="Введите пароль от вашей почты">
+    <button type="submit" class="btnsave">Сохранить мою почту</button>
+</div>
+<script>
+    const select = document.getElementById('catsel');
+    const allForms = document.querySelectorAll('.catform');
+
+    select.addEventListener('change', function() {
+        allForms.forEach(form => {
+            form.style.display = 'none';
+        });
+
+        const chosen = this.value;
+        if (chosen) {
+            const target = document.getElementById('form-' + chosen);
+            if (target) {
+                target.style.display = 'flex'; 
+            }
+        }
+    });
+</script>
+<script src="app.js" defer></script>
+</body>
+</html>

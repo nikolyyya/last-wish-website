@@ -560,3 +560,90 @@ body{
     padding: 30px;
     margin: 15px;
 }
+.createyours {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 50px #ffffff,
+        0 0 30px #7EEB48,
+        0 0 60px #7EEB48,
+        0 0 80px #8a2be2;
+    transition: 1s;
+}
+.statistics {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #FFFF00,
+        0 0 60px #FFFF00,
+        0 0 80px #FF0000;
+}
+.catselect {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.catselect label {
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #FFFF00;
+}
+.categorf {
+    background-color: #87CEFA;
+    width: 250px;
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-size: 14px;
+    border: 2px solid #070052;
+    cursor: pointer;
+}
+.catform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+}
+.catform h3 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #FFFF00;
+}
+.catform h4 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 
+        0 0 10px lightpink,
+        0 0 20px #ffffff,
+        0 0 50px #FFFF00;
+}
+.catform input {
+    padding: 20px;
+    background-color : lightpink;
+    border-radius: 30px;
+    cursor: text;
+    transition: 1s;
+    border: 2px solid #070052;
+}
+.btnsave {
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #32e695;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #FF0000;
+}
